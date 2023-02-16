@@ -13,4 +13,4 @@
 - Code Mixer: https://replit.com/@DrydenArt/Flask-Project#templates/code_mixer.html
   
 *** Browser Link:
-- will paste in later
+- https://flask-project.drydenart.repl.co/
