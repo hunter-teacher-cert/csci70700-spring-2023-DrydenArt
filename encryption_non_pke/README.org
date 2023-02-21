@@ -5,23 +5,12 @@
 *** Links to my Encryption Repl.it
 - Invite Link: https://replit.com/join/ugueozloeh-drydenart
 - main.py link: https://replit.com/@DrydenArt/Encryption#main.py
+- NOTE:  both of my HW solutions are run from main.py but you will find my notes for part two in the transposition.py file linked below
 
-Please use these filenames:
-- *homework.md*, *homework.pdf*, or *homework.docx* for the homework
-  assignment
-- *prework.md*, *prework.pdf*, or *prework.docx* if you are giving
-  links to videos or online resources for prework
-- Other files should be given names that make sense
-*** Assigning the work
-- make sure to post the prework one week before your presentation in
-  the #cstopics-async channel.
-- make sure to post the homework after your group presentation in the
-  #cstopics-hw channel.
+
+*** Additional Files:
+- HOMEWORK PART 2: 'ENCRYPTION' written in transposition.py: https://replit.com/@DrydenArt/Encryption#transposition.py
+- Copy of code-along in class: caesar_encryption.py: https://replit.com/@DrydenArt/Encryption#caesar_encryption.py
   
-** If you are completing the homework for this unit:
 
-The homework will be posted in the #cstopics-hw channel.
-
-Upload your solutions to the assigned homework in the appropriate
-folder. Make sure to use the filenames specified in the assignments.
 
