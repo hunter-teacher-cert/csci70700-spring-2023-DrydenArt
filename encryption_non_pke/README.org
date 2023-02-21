@@ -10,10 +10,10 @@
 
 *** Additional Files:
 - HOMEWORK PART 2: 'ENCRYPTION' written in transposition.py: https://replit.com/@DrydenArt/Encryption#transposition.py
-- Copy of code-along in class: caesar_encryption.py: https://replit.com/@DrydenArt/Encryption#caesar_encryption.py
+- Copy of code-along done in class: caesar_encryption.py: https://replit.com/@DrydenArt/Encryption#caesar_encryption.py
   
 *** Additional Notes:
 - For HW part 2, I originally made a specific key to allocate the number of colunms my message would be broken into
 - I wanted to see if I could you the random.randrange to generate a new key each time (see notes in transposition.py)
-- It fun to re-run the code to see the various ways it was broken up, but I realize that this may not be the best approach to encryption :0)
+- It was fun to re-run the code to see the various ways the message was broken up, but I realize it may not be the best approach to encryption :0)
 
