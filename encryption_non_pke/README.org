@@ -5,7 +5,7 @@
 *** Links to my Encryption Repl.it
 - Invite Link: https://replit.com/join/ugueozloeh-drydenart
 - main.py link: https://replit.com/@DrydenArt/Encryption#main.py
-- NOTE:  both of my HW solutions are run from main.py but you will find my notes for part two in the transposition.py file linked below
+- <b>NOTE:<b>  both of my HW solutions are run from main.py but you will find my notes for part two in the transposition.py file linked below
 
 
 *** Additional Files:
