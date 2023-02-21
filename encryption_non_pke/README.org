@@ -4,7 +4,7 @@
 
 *** Link to my Encryption Repl.it
 - https://replit.com/join/ugueozloeh-drydenart
-- main.py link: https://replit.com/@DrydenArt/Ceasar-Cipher#main.py
+- main.py link: https://replit.com/@DrydenArt/Encryption#main.py
 
 Please use these filenames:
 - *homework.md*, *homework.pdf*, or *homework.docx* for the homework
