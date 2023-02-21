@@ -5,7 +5,7 @@
 *** Links to my Encryption Repl.it
 - Invite Link: https://replit.com/join/ugueozloeh-drydenart
 - main.py link: https://replit.com/@DrydenArt/Encryption#main.py
-- **NOTE**:  both of my HW solutions are run from main.py but you will find my notes for part two in the transposition.py file linked below
+- NOTE:  both of my HW solutions are run from main.py but you will find my notes for part two in the transposition.py file linked below
 
 
 *** Additional Files:
@@ -14,6 +14,6 @@
   
 *** Additional Notes:
 - For HW part 2, I originally made a specific key to allocate the number of colunms my message would be broken into
-- I wanted to see if I could you the random.randrange to generate a new key each time (see notes in transposition.py)
+- I wanted to see if I could you the random.randrange() to generate a new key each time (see notes in transposition.py)
 - It was fun to re-run the code to see the various ways the message was broken up, but I realize it may not be the best approach to encryption :0)
 
