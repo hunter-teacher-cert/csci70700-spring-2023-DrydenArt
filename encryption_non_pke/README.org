@@ -2,9 +2,9 @@
 
 ** Encryption non-PKE
 
-*** Upload instructions
-Upload all content relating to the delivery of your unit. Include the
-prework, slides, content etc.
+*** Link to my Encryption Repl.it
+- https://replit.com/join/ugueozloeh-drydenart
+- main.py link: https://replit.com/@DrydenArt/Ceasar-Cipher#main.py
 
 Please use these filenames:
 - *homework.md*, *homework.pdf*, or *homework.docx* for the homework
