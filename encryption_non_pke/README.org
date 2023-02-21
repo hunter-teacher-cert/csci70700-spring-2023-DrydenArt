@@ -2,8 +2,8 @@
 
 ** Encryption non-PKE
 
-*** Link to my Encryption Repl.it
-- https://replit.com/join/ugueozloeh-drydenart
+*** Links to my Encryption Repl.it
+- Invite Link: https://replit.com/join/ugueozloeh-drydenart
 - main.py link: https://replit.com/@DrydenArt/Encryption#main.py
 
 Please use these filenames:
