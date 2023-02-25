@@ -8,7 +8,7 @@
 - main.py link: https://replit.com/@DrydenArt/Flask-Project#main.py
 
 *** Additional Routes:
-- ** New Content!  Index: https://replit.com/@DrydenArt/Flask-Project#templates/index.html
+- **New Content!  Index: https://replit.com/@DrydenArt/Flask-Project#templates/index.html
 - P5 Gallery: https://replit.com/@DrydenArt/Flask-Project#templates/p5_gallery.html
 - Code Mixer: https://replit.com/@DrydenArt/Flask-Project#templates/code_mixer.html
 - *** New!  Name Game: https://replit.com/@DrydenArt/Flask-Project#templates/form_demo.html
