@@ -2,8 +2,7 @@
 
 ** Prework:
 
-Link to my AFrame Repl.it:
-- https://replit.com/join/mstvbzjlaz-drydenart
+Link to my AFrame Repl.it: https://replit.com/join/mstvbzjlaz-drydenart
 - Completed:  
   - Intro to AFrame
   - Position, Rotation, Dimension
