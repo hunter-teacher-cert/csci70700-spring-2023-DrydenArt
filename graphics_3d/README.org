@@ -13,7 +13,13 @@ Link to my AFrame Repl.it: https://replit.com/join/mstvbzjlaz-drydenart
 ** Homework:
 Link to my new AFrame Repl.it: https://replit.com/join/ancqrydkos-drydenart
 - I created a new scene as an art expression
-- Title:  "One Step Ahead"
+- Title Options:  
+  - "One Step Ahead"
+  - "Race to the Sky"
+  - "Treading Water"
+  - "Not All Boats Float"
+  - "Housing Hierarchy"
+  - "Learning to Code"
  
   
 
