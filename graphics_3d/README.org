@@ -12,10 +12,8 @@ Link to my AFrame Repl.it: https://replit.com/join/mstvbzjlaz-drydenart
   
 ** Homework:
 Link to my new AFrame Repl.it: https://replit.com/join/ancqrydkos-drydenart
-- I created a new scene that is a statement on global warming
-  - Waters rise
-  - All land has been submerged
-  - Humanity tries to outrun the rising tides without success
+- I created a new scene as an art expression
+- Title:  "One Step Ahead"
  
   
 
