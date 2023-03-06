@@ -11,5 +11,11 @@ Link to my AFrame Repl.it: https://replit.com/join/mstvbzjlaz-drydenart
   - Intro to: Oval and Prism Components
   
 ** Homework:
+Link to my new AFrame Repl.it: https://replit.com/join/ancqrydkos-drydenart
+- I created a new scene that is a statement on global warming
+  - Waters rise
+  - Land has been submerged
+  - Humanity tries to outrun the rising tides without success
+ 
   
 
