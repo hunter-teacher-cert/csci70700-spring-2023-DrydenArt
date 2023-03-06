@@ -14,7 +14,7 @@ Link to my AFrame Repl.it: https://replit.com/join/mstvbzjlaz-drydenart
 Link to my new AFrame Repl.it: https://replit.com/join/ancqrydkos-drydenart
 - I created a new scene that is a statement on global warming
   - Waters rise
-  - Land has been submerged
+  - All land has been submerged
   - Humanity tries to outrun the rising tides without success
  
   
