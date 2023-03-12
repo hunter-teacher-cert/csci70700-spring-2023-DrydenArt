@@ -1,0 +1,142 @@
+;my corrections from the code along in class - errors found and fixed
+section	.text ;the code goes here
+	global _start       ;must be declared for using gcc
+_start:                     ;tell linker entry point
+    ;move the data from memory to the registers
+    mov eax, [num1]
+    mov ebx, [num2]
+    
+    ;add the data and store to register a
+    add eax, ebx ;adds the two numbers together and stores it in whichever one is listed first, in this case Register A
+    add eax, '0' ;conversts from number ascii value
+    
+    ;storing teh result back to the result variable
+    mov [result], eax
+    mov ebx, [num3];takes in the third number into Register B
+    add eax, ebx ;adds the two together, stores the new total in Register A
+    mov [result], eax ;updates the result varible with new sum
+
+    ;the next 5 lines print 'how many hours...'
+	mov	edx, len    ;message length
+	mov	ecx, msg    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	;printing the numberical result
+	mov	edx, 1    ;message length
+	mov	ecx, result    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+
+	;the next 5 lines print 'the real answer is'
+	mov	edx, len2    ;message length
+	mov	ecx, msg2    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+
+	mov eax, [num1]
+	add eax, '0' ;converts to ascii value
+	;printing the variable
+	mov [result2], eax
+	mov	edx, 1    ;message length
+	mov	ecx, result2    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	;mov ecx, [num1]
+	;add ecx, '0'
+	
+	;the next 5 lines print 'crying'
+	mov	edx, len3    ;message length
+	mov	ecx, msg3    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	
+	mov eax, [num2]
+	add eax, '0' ;converts to ascii value
+	;printing the variable
+	mov [result3], eax
+	mov	edx, 1    ;message length
+	mov	ecx, result3    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	;the next 5 lines print 'working'
+	mov	edx, len4    ;message length
+	mov	ecx, msg4    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	mov eax, [num3]
+	add eax, '0' ;converts to ascii value
+	;printing the variable
+	mov [result4], eax
+	mov	edx, 1    ;message length
+	mov	ecx, result4    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	;the next 5 lines print 'therapy'
+	mov	edx, len5    ;message length
+	mov	ecx, msg5    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	;printing the numberical result
+	mov	edx, 1    ;message length
+	mov	ecx, result    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	;the next 5 lines print 'total'
+	mov	edx, len6    ;message length
+	mov	ecx, msg6    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	
+	mov	eax, 1	    ;system call number (sys_exit)
+	int	0x80        ;call kernel
+
+section	.data ;where constant or known values go
+
+msg	db	'How many hours does it take me to complete my cs homework?',0xa	;our dear string
+len	equ	$ - msg			;length of our dear string
+
+msg2 db 0xa,0xa, 'The real answer is:',0xa
+len2 equ $ - msg2
+
+msg3 db ' hours of crying,', 0xa
+len3 equ $ - msg3
+
+msg4 db ' hours of working, searching and reading, plus:', 0xa
+len4 equ $ - msg4
+
+msg5 db ' hours of therapy', 0xa, '----------------------------',0xa
+len5 equ $ - msg5
+
+msg6 db ' total hours on a good day (with lots of help--thanks Marieke!!)',0xa
+len6 equ $ - msg6
+
+num1 db 2
+num2 db 4
+num3 db 3
+
+section .bss ; this is where variables go
+result resb 2
+result2 resb 3
+result3 resb 4
+result4 resb 5
